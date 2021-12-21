@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FineDeliver</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="userPostItemGuide_s1">We have not currently integrated the online payment. We will update you later.
+        So until please use cash on delivery method. Your order is received by our team. We will check your order availability.
+        If the order is valid we will inform you later by email or mobile notification</string>
+    <string name="fd_welcome_s">Welcome to FineDeliver, First we thanks to all for use our mobile app and service. We hope to give you the amazing delivery service</string>
+    <string name="fd_settings_s">Currently you have default settings for ALPHA version of this. We will update Settings later. Thank You</string>
+    <string name="fd_notifications_s">Your all notifications are appears here...</string>
+
+</resources>

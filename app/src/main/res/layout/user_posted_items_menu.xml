@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/fd_gray_lite_2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtUserPostedItemOrderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Name"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textSize="16sp"
+            android:textColor="@color/fd_gray"/>
+
+        <ImageView
+            android:id="@+id/imgUserPostedItemImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_post_item"/>
+
+        <TextView
+            android:id="@+id/txtUserPostedItemOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/fd_gray"/>
+
+        <TextView
+            android:id="@+id/txtUserPostedItemDueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Due Date"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textSize="14sp"
+            android:textColor="@color/fd_gray"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

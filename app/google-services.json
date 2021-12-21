@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "127342946907",
+    "firebase_url": "https://finedeliver-default-rtdb.firebaseio.com",
+    "project_id": "finedeliver",
+    "storage_bucket": "finedeliver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127342946907:android:10b3dde769ec9dcd362d7e",
+        "android_client_info": {
+          "package_name": "dev.dileepabandara.finedeliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127342946907-1fldfntcjjbf03jiemjjqsimc3do7pgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.dileepabandara.finedeliver",
+            "certificate_hash": "c217f54b89c6457b743f2a31ab01f5bd45420e56"
+          }
+        },
+        {
+          "client_id": "127342946907-afgm5blp9qatjot09c8enh5k48e0lo3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxrUy-EXn1L9Uq7ljR9-H8MWYRwLWx37Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127342946907-afgm5blp9qatjot09c8enh5k48e0lo3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="Home"
+        app:cnb_iconColor="@color/white"
+        android:icon="@drawable/ic_round_home_w_24"
+        app:cnb_backgroundColor="@color/fd_red"/>
+
+    <item
+        android:id="@+id/bottom_nav_items"
+        android:title="Items"
+        app:cnb_iconColor="@color/white"
+        android:icon="@drawable/ic_round_shopping_bag_w_24"
+        app:cnb_backgroundColor="@color/fd_red"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        app:cnb_iconColor="@color/white"
+        android:icon="@drawable/ic_round_person_w_24"
+        app:cnb_backgroundColor="@color/fd_red"/>
+
+    <item
+        android:id="@+id/bottom_nav_notification"
+        android:title="Notifications"
+        app:cnb_iconColor="@color/white"
+        android:icon="@drawable/ic_round_notifications_w_24"
+        app:cnb_backgroundColor="@color/fd_red"/>
+
+    <item
+        android:id="@+id/bottom_nav_settings"
+        android:title="Settings"
+        app:cnb_iconColor="@color/white"
+        android:icon="@drawable/ic_round_settings_w_24"
+        app:cnb_backgroundColor="@color/fd_red"/>
+
+</menu>
